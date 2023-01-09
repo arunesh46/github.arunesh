@@ -1,0 +1,11 @@
+a=float(input("enter the number of new loaves purchased:\n"))
+b=float(input("Enter the number of day old loaves purchased:\n"))
+c=185.00
+d=(185.00/100)*60
+e=c*a
+f=b*d
+g=e+f
+print("regular prize =",c)
+print("Amount of new loaves:",e)
+print("amount of one day old loaves",f)
+print("total amount=",g)
