@@ -1,0 +1,14 @@
+a=float(input("Enter the principal amount:"))
+b=float(input("Enter the no of years:"))
+c=input("enter if senior citize or not[Y/N]")
+x=12
+y=10
+d=(a*b*x)/100
+e=(a*b*y)/100
+
+if c=="y":
+    print("intresrt =",d)
+elif c=="n":
+    print("intrest=",e)
+else:
+    print("enter a valid option")
